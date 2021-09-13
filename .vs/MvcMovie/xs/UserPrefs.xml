@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{6DC6025E-1273-4AFE-8049-1831ACBC50CA}|Default">
   <MonoDevelop.Ide.ItemProperties.MvcMovie PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MvcMovie/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MvcMovie/Views/HelloWorld/Welcome.cshtml">
     <Files>
-      <File FileName="MvcMovie/Controllers/HelloWorldController.cs" Line="23" Column="56" />
-      <File FileName="MvcMovie/Startup.cs" Line="1" Column="1" />
+      <File FileName="MvcMovie/Startup.cs" Line="53" Column="65" />
+      <File FileName="MvcMovie/Views/Index.cshtml" Line="6" Column="1" />
+      <File FileName="MvcMovie/Views/Shared/_Layout.cshtml" Line="20" Column="56" />
+      <File FileName="MvcMovie/Controllers/HelloWorldController.cs" Line="25" Column="45" />
+      <File FileName="MvcMovie/Views/HelloWorld/Welcome.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +14,13 @@
           <Node name="MvcMovie" expanded="True">
             <Node name="MvcMovie" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
+              <Node name="Views" expanded="True">
+                <Node name="HelloWorld" expanded="True">
+                  <Node name="Welcome.cshtml" selected="True" />
+                </Node>
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>

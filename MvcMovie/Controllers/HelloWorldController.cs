@@ -11,16 +11,20 @@ namespace MvcMovie.Controllers
     public class HelloWorldController : Controller
     {
         // GET: /<controller>/
-        public string Index()
+        public IActionResult Index()
         {
             //return View();
-            return "This is my default action";
+            return View();
         }
 
         // GET: /HelloWorld/Welcome/
-        public string Welcome(string name, int id=1)
+        public IActionResult Welcome(string name, int numTimes=1)
         {
-            return $"Hello, {name}, ID: {id}";
+            //return $"Hello, {name}, ID: {id}";
+            ViewData["Message"] = "Hello! " + name;
+            ViewData["NumTimes"] = numTimes;
+
+            return View();
         }
     }
 }
