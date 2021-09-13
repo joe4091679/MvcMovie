@@ -16,5 +16,11 @@ namespace MvcMovie.Controllers
             //return View();
             return "This is my default action";
         }
+
+        // GET: /HelloWorld/Welcome/
+        public string Welcome(string name, int id=1)
+        {
+            return $"Hello, {name}, ID: {id}";
+        }
     }
 }
